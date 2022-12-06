@@ -12,46 +12,53 @@
         <img src="./images/city-background.jpg" alt="placeholder image">
     </div>
     <div class="right">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. You know you want to.</p>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+        <p>You know you want to.</p>
         <h4>Let's do this!</h4>
 
         <form action="http://httpbin.org/post" method="post">
-            <div>
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id="first_name">
-            </div>
-        
-            <div>
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" id="last_name">
-            </div>
-        
-            <div>
-                <label for="user_email">Email Address:</label>
-                <input type="email" id="user_email" name="email" placeholder="you@example.com">
-            </div>
-
-            <div>
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number">
-            </div>
+            <fieldset class="top-form">
+                <div class="first-name">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
             
-            <div>
-                <label for="user_password">Password:</label>
-                <input type="password" id="user_password" name="password">
-            </div>
-
-            <div>
-                <label for="user_password">Confirm Password:</label>
-                <input type="password" id="user_password" name="password">
-            </div>
+                <div class="last-name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+            </fieldset>
             
-        
-            <button type="submit">Create Account</button>
-        </form>
+            <fieldset class="middle-form">
+                <div class=email>
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                </div>
+
+                <div class="phone-number">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
+            </fieldset>
+
+            <fieldset class="bottom-form">   
+                <div class="password">
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password">
+                </div>
+
+                <div class="confirm-password">
+                    <label for="user_password">Confirm Password:</label>
+                    <input type="password" id="user_password" name="password">
+                </div>
+            </fieldset>
+                
+            
+                <button type="submit">Create Account</button>
+            </form>
         
 
-        <p>Already have an account? Log in</p>
+        <p>Already have an account? <a href="#">Log in</a></p>
     </div>
 </body>
 </html>
