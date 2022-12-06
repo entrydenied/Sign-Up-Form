@@ -13,4 +13,26 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+
+fieldset {
+    display: flex;
+    border: 0;
+    gap: 5vh;
+}
+
+label {
+    font-size: 10px;
+}
+
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
 }
