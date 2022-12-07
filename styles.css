@@ -1,35 +1,50 @@
 body {
     display: flex;
-    align-items: space-between;
-    justify-content: space-between;
     font-family: Noto Sans, sans-serif;
+    margin: 0;
 }
 
 .left img {
-    height: auto;
-<<<<<<< HEAD
-    width: 400px;
-=======
-    width: 600px;
->>>>>>> 9cd2d675ce9f7cf46b8235f693f242ac47056689
+    height: 100%;
+    width: 585px;
 }
 
 .right {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    justify-content: space-evenly;
+    margin-top: 100px;
+    
 }
 
 fieldset {
     display: flex;
     border: 0;
     gap: 5vh;
+    
 }
 
 label {
     font-size: 10px;
 }
+
+/* .main-form {
+    box-shadow: 10px 5px 5px black;
+} */
+
+button {
+    margin-top: 10px;
+    background: #596d48;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 
 .first-name,
 .last-name,
