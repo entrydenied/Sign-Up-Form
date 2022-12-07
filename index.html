@@ -22,33 +22,33 @@
                 <fieldset class="top-form">
                     <div class="first-name">
                         <label for="first_name">First Name:</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name" required>
                     </div>
                 
                     <div class="last-name">
                         <label for="last_name">Last Name:</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <input type="text" name="last_name" id="last_name" required>
                     </div>
                 </fieldset>
                 
                 <fieldset class="middle-form">
                     <div class="email">
                         <label for="user_email">Email Address:</label>
-                        <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                        <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
                     </div>
                     <div class="phone-number">
                         <label for="phone_number">Phone Number:</label>
-                        <input type="tel" id="phone_number" name="phone_number">
+                        <input type="tel" id="phone_number" name="phone_number" required>
                     </div>
                 </fieldset>
                 <fieldset class="bottom-form">
                     <div class="password">
                         <label for="user_password">Password:</label>
-                        <input type="password" id="user_password" name="password">
+                        <input type="password" id="user_password" name="password" minlength="5" required>
                     </div>
                     <div class="confirm-password">
                         <label for="user_password">Confirm Password:</label>
-                        <input type="password" id="confirm_password" name="password">
+                        <input type="password" id="confirm_password" name="password" minlength="5" required>
                     </div>
                 </fieldset>
             </div>
